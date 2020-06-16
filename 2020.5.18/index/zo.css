@@ -1,0 +1,161 @@
+button{
+  cursor:pointer;
+}
+div {
+  cursor: url("../image1/鼠标.ico"), auto;
+}
+.background1 {position: absolute;
+  background-image: url("../image1/background1.jpg");
+  height: 827px;
+  width: 288px;
+  left: 65px;
+  top: 10px;
+}
+.background2 {position: absolute;
+  background-image: url("../image1/background2.jpg");
+  height: 863px;
+  width: 378px;
+  left: 1130px;
+}
+.ear {
+  position: absolute;
+  background-color: rgb(255, 233, 160);
+  height: 90px;
+  width: 1000px;
+  left: 240px;
+  top: 18px;
+  border-radius: 180px 180px 80px 80px;
+  border: 10px groove rgb(255, 199, 15) ;
+}
+.black {
+  position: absolute;
+  background-color: black;
+  height: 73px;
+  width: 80px;
+  left: 250px;
+  top: 27px;
+  border-radius: 180px 20px 20px 80px;
+  border: 10px groove black ;
+}
+.blacks {
+  position: absolute;
+  background-color: black;
+  height: 73px;
+  width: 80px;
+  left: 1151px;
+  top: 27px;
+  border-radius: 20px 180px 80px 20px;
+  border: 10px groove black ;
+}
+.yellow {
+  position: absolute;
+  background-color: rgb(255, 202, 29);
+  height: 650px;
+  width: 690px;
+  left: 390px;
+  top: 10px;
+  border-radius: 30px;
+  border: 18px inset rgb(255, 103, 103) ;
+}
+.pinmu {
+  position: absolute;
+  margin-top: 30px;
+  height: 500px;
+  width: 1000px;
+  text-align: center;
+  margin-left: 40px;
+}
+.gray {
+  position: absolute;
+  background-color: rgb(134, 130, 130);
+  height: 412px;
+  width: 550px;
+  top: 10px;
+  left: 428px;
+  border-radius: 37px;
+  border: 4px ridge rgb(155, 155, 155);
+}
+
+.image {
+  position: absolute;
+  width: 550px;
+  height: 410px;
+  border-radius:30px;
+  border: 3px inset rgb(155, 155, 155);
+  margin-top: 12px;
+  margin-left: 430px;
+  
+}
+#imageSwitch{
+  background-image: url("../image1/every.jpg");
+  width: 549px;
+  height: 410px;
+  border-radius:30px;
+}
+.pikaSay {
+  position: absolute;
+  background-color: azure;
+  border: 3px inset rgb(255, 219, 14);
+  border-radius: 15px;
+  width: 415px;
+  top: 18px;
+  height: 36px;
+  left: 497px;
+  background-color: rgb(93, 94, 73);
+  font-size: 20px ;
+  text-align: center;
+  color: rgb(255, 219, 14);
+  font-family: "粗体";
+  padding-left: 15px;
+  
+}
+.anlino {
+  position: absolute;
+  left: 210px;
+  top: 535px;
+  width: 1000px;
+  letter-spacing: 37px;
+}
+.anlino button {
+  background-color: azure;
+  border: 5px inset rgb(255, 103, 103);
+  border-radius:18px;
+  width: 90px;
+  height: 50px;
+  background-color: rgb(93, 94, 73);
+  font-size: 20px ;
+  text-align: center;
+  color: rgb(255, 219, 14);
+  font-family: "粗体";
+}
+.anlino a {
+  text-decoration: none;
+  font-size: 20px;
+  color:  rgb(255, 219, 14);;
+}
+.zhutai {
+  position: absolute;
+  left: 447px;
+  top: 395px;
+  background-color: azure;
+  border: 3px inset rgb(255, 219, 14);
+  border-radius:14px;
+  width: 505px;
+  height: 36px;
+  background-color: rgb(93, 94, 73);
+  font-size: 20px ;
+  text-align: center;
+  color: rgb(255, 219, 14);
+  font-family: "粗体";
+
+}
+.xiantiao {
+  border: 10px inset rgb(255, 103, 103);
+  height: 0px;
+  width: 675px;
+  margin-left: 356px;
+  margin-top: 470px;
+}
+#reBtn {
+  cursor: wait;
+}
