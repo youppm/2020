@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+     .doge {
+       background-image: url("images/doge-small.jpg");
+       width: 226px;
+       height: 150px;
+     }
+
+     .dogeSay {
+       position: absolute;
+       background-color: azure;
+       border: 2px solid black;
+       width: 300px;
+       height: 20px;
+       top: 40px;
+       left: 170px;
+       padding-left: 15px;
+     }
+  </style>
+</head>
+<body>
+  <!-- <img class="doge" src="images/doge.jpg" alt="土狗一只"> -->
+  <div class="doge"></div>
+  <h1 id="dogeStatus">我即将显示狗的状态</h1>
+  <div id="dogeSay" class="dogeSay"></div>
+  <button id='feedBtn' onclick="dog.eat()">喂他！</button>
+  <button id='runBtn' onclick="dog.run()">没病跑起来！</button>
+  <button id='reBtn' onclick="dog.resurrect()">复活吧，我的勇士！</button>
+  <script src="obj.js"></script>
+</body>
+</html>
